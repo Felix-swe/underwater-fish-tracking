@@ -1,0 +1,64 @@
+{
+    "fish_types": {
+        "red_fish": {
+            "h_lower": 0,
+            "s_lower": 20,
+            "v_lower": 30,
+            "h_upper": 15,
+            "s_upper": 255,
+            "v_upper": 255
+        },
+        "blue_fish": {
+            "h_lower": 100,
+            "s_lower": 20,
+            "v_lower": 20,
+            "h_upper": 124,
+            "s_upper": 255,
+            "v_upper": 255
+        },
+        "green_fish": {
+            "h_lower": 35,
+            "s_lower": 25,
+            "v_lower": 20,
+            "h_upper": 77,
+            "s_upper": 255,
+            "v_upper": 255
+        },
+        "custom_fish": {
+            "h_lower": 0,
+            "s_lower": 30,
+            "v_lower": 30,
+            "h_upper": 30,
+            "s_upper": 255,
+            "v_upper": 255
+        }
+    },
+    "min_contour_area": 500,
+    "tracker_type": "CSRT",
+    "dynamic_threshold": true,
+    "save_video": true,
+    "morphology_kernel": 5,
+    "contour_aspect_ratio": [
+        0.2,
+        5.0
+    ],
+    "multi_hsv": false,
+    "multi_hsv_config": {
+        "hsv1": {
+            "h_lower": 0,
+            "s_lower": 20,
+            "v_lower": 20,
+            "h_upper": 20,
+            "s_upper": 255,
+            "v_upper": 255
+        },
+        "hsv2": {
+            "h_lower": 160,
+            "s_lower": 20,
+            "v_lower": 20,
+            "h_upper": 179,
+            "s_upper": 255,
+            "v_upper": 255
+        }
+    }
+}
